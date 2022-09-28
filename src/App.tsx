@@ -1,12 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
 import Navbar from "./components/Navbar/Navbar";
-import RoleForm from "./components/profile/RoleForm";
+import Service from "./components/services/Service";
+import ServiceItem from "./components/services/ServiceItem";
+import ServicesList from "./components/services/ServicesList";
 import { useAuthContext } from "./hooks/auth/useAuthContext";
+import { seedServices } from "./lib/dataSeeder";
 function App() {
 	const { isAuthReady, user } = useAuthContext();
+
+	// testing grounds
+	useEffect(() => {
+		// seedServices();
+	}, []);
 
 	// check if auth is already checked
 	return (
@@ -16,9 +24,13 @@ function App() {
 					<BrowserRouter>
 						<Navbar />
 						<Routes>
-							<Route path='/' element={<div>Home</div>} />
+							<Route path='/' element={<ServicesList />} />
 							<Route path='/login' element={<Login />} />
 							<Route path='/register' element={<Register />} />
+							<Route
+								path='/services/:service_id'
+								element={<Service />}
+							/>
 						</Routes>
 					</BrowserRouter>
 				</div>

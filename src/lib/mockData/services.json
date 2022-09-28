@@ -1,0 +1,72 @@
+[
+	{
+		"name": "HVAC",
+		"location": "Gangtun",
+		"description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+		"price": 43,
+		"category": "Site Furnishings"
+	},
+	{
+		"name": "Carpenter",
+		"location": "Calingcuan",
+		"description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+		"price": 41,
+		"category": "Temp Fencing, Decorative Fencing and Gates"
+	},
+	{
+		"name": "Boilermaker",
+		"location": "George Town",
+		"description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+		"price": 36,
+		"category": "Granite Surfaces"
+	},
+	{
+		"name": "Boilermaker",
+		"location": "Khashuri",
+		"description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+		"price": 1,
+		"category": "Overhead Doors"
+	},
+	{
+		"name": "Brickmason",
+		"location": "Simeykyne",
+		"description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+		"price": 37,
+		"category": "Site Furnishings"
+	},
+	{
+		"name": "Plumber",
+		"location": "Sepanjang",
+		"description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+		"price": 6,
+		"category": "Casework"
+	},
+	{
+		"name": "Ironworker",
+		"location": "Miaotang",
+		"description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+		"price": 43,
+		"category": "Epoxy Flooring"
+	},
+	{
+		"name": "Electrician",
+		"location": "Soio",
+		"description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+		"price": 17,
+		"category": "Framing (Wood)"
+	},
+	{
+		"name": "Boilermaker",
+		"location": "Wissous",
+		"description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+		"price": 96,
+		"category": "Framing (Steel)"
+	},
+	{
+		"name": "Laborer",
+		"location": "Dolega District",
+		"description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+		"price": 1,
+		"category": "Exterior Signage"
+	}
+]

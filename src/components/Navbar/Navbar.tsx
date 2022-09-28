@@ -20,7 +20,7 @@ function Navbar({}: Props) {
 
 	return (
 		<header>
-			<a href=''>Serbisyo</a>
+			<Link to='/'>Serbisyo</Link>
 			<nav>
 				<ul>
 					{user ? (
