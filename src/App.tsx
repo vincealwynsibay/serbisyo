@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
 import Navbar from "./components/Navbar/Navbar";
+import RequestOffersList from "./components/requests/RequestOffersList";
+import CreateServiceForm from "./components/services/CreateServiceForm";
 import Service from "./components/services/Service";
 import ServiceItem from "./components/services/ServiceItem";
 import ServicesList from "./components/services/ServicesList";
@@ -33,6 +35,8 @@ function App() {
 							/>
 						</Routes>
 					</BrowserRouter>
+					<RequestOffersList />
+					<CreateServiceForm />
 				</div>
 			) : (
 				<div>loading...</div>

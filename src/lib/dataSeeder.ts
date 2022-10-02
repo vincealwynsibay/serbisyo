@@ -8,16 +8,7 @@ import {
 	setDoc,
 } from "firebase/firestore";
 import servicesData from "./mockData/services.json";
-
-interface IService {
-	provider_id: string;
-	name: string;
-	location: string;
-	description: string;
-	price: number;
-	category: string;
-	photo: string;
-}
+import { IService } from "../types";
 
 export async function seedServices() {
 	const services: IService[] = [];
